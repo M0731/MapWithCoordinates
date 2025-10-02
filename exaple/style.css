@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+text-decoration: none;
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: #00221C;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    background: rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.LOGO{
+    font-size: 2rem;
+    color: #f5f5f5;
+  
+    font-weight: 1000;
+  
+
+}
+.navbar a{
+    font-size: 1.15rem;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+.icons{
+    font-size: 2.8rem;
+    right: 5%;
+     color: #fff;
+     cursor: pointer;
+     display: none;
+
+}
+
+.image img {
+  width: 1400px;     
+  height: auto;      
+  border-radius: 10px; 
+  margin: 2rem;
+  
+}
+.image{
+    color: black;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+
+
+/*PAGE1*/
+
+.Page1 {
+  height: 100vh; /* full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  text-align: center;
+  color: #f5f5f5;
+}
+.Page1 h2{
+    text-align: center;
+    margin: 2rem;
+    font-weight: 300;
+    margin-top: 18rem;
+    
+}
+
+.Page1 h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.Page1 .tagline {
+  font-size: 26px;
+  font-weight: 400;
+  color: #f5f5f5;
+  opacity: 0;
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: 1s;
+}
+/* Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/*PAGE2*/
+
+
+
+.image .inPage2{
+    text-align: left;
+    background-color: #f5f5f5;
+    margin: 1rem;
+
+}
+.image .inPage2 h4{
+      font-size: 2rem;
+    
+    text-decoration: dotted, underline;
+    font-weight: 500;
+    margin-left: 2.5rem;
+    margin-bottom: 20px; 
+     margin-top: 20px; 
+     color: black;
+
+}
+.image .inPage2 img {
+  width: 1100px;     
+  height: auto;      
+  border-radius: 10px; 
+  margin: 2rem;
+}
+.Page2 h1{
+      font-size: 2rem;
+    color: #f5f5f5;
+    text-decoration: dotted, underline;
+    font-weight: 500;
+    margin-bottom: 1rem;
+
+}
+
+
+/*PAGE3*/
+.Page3 h1{
+    font-size: 2rem;
+    color: black;
+    font-weight: 500;
+    margin-left: 2.5rem;
+    margin-bottom: 20px; 
+     margin-top: 20px; 
+}
+.Page3 img{
+    height: 900px;
+    width: auto;
+}
+area:hover {
+  cursor: pointer;
+}
